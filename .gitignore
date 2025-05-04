@@ -1,0 +1,65 @@
+# -----------------
+# Java and Maven
+# -----------------
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+replay_pid*
+HELP.md
+mvnw
+mvnw.cmd
+.mvn
+
+# Maven target directory
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven build files
+dependency-reduced-pom.xml
+release.properties
+
+# -----------------
+# IDEs
+# -----------------
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# -----------------
+# OS-specific
+# -----------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------
+# Logs and misc
+# -----------------
+*.log
+*.tmp
+*.swp
+
+# -----------------
+# Environment files
+# -----------------
+.env
